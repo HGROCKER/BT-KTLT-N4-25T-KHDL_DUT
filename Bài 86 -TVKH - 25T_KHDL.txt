@@ -1,0 +1,7 @@
+Nhập 2 xâu
+Tạo một mảng c có 'z'+3  phần tử tránh tràn.
+Gán các phần tử trong c có thứ tự từ giá trị 'a' tới 'z'  bằng 0;
+duyet i từ 0 tới độ dài xâu a trừ 1
+trên mỗi lần duyệt với phần tử c[a[i]]++ và c[b[i]]--
+Nghĩa là với 1 phần tử char trong xâu a sẽ làm tăng giá trị của c[char đó] tương ứng và ngược lại với b.
+Sau khi thực hiện quá trình. nếu như mọi giá trị các phần tử từ 'a' tới 'z' đều bằng 0 thì kết quả in ra cả 2 xâu là anagram của nhau. [Hay nói cách khác b triệt tiêu được các giá trị mà a tăng lên, có nghĩa số lượng phần tử các loại của a bằng với b từ đó suy ra a và b là 2 hoán vị của nhau].
