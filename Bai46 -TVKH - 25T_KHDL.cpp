@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 long long kTraSoHoanHao(long long n){
+    if(n<1)return 0;
     long long s=-n,k=sqrt(n);
     for(long long  i=1;i<=k;i++){if(n%i==0){s+=i;s+=n/i;}}
     if(k*k==n)s-=k;
