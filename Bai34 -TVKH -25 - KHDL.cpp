@@ -13,6 +13,7 @@ int ktra(char s[]){
 int main(){
 	char a[MAX];scanf("%s",a);
 	if(ktra(a))printf("Day la xau doi xung!");
-	else printf("Day KHONG PHAI la xau doi xung!")
+	else printf("Day KHONG PHAI la xau doi xung!");
 	return 0;
+
 }
