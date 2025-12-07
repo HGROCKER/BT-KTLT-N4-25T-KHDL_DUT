@@ -3,7 +3,7 @@
 #include <string.h>
 struct item{
     int sl;
-    char name[100];
+    char name[1000];
 };
 
 int Nfind(struct item ds[],char s[],int k,int n){
@@ -28,7 +28,7 @@ void findMAX(struct item ds[],int n){
 
 int main() {
     int n;scanf("%d",&n);
-    struct item ds[1000];
+    struct item ds[100000];
     int i=0;
     if(n){
         scanf("%s %d",ds[i].name,&ds[i].sl);
